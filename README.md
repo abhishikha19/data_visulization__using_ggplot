@@ -85,7 +85,3 @@ When you run the script, you may get:
 - Open the `.R` file and read the comments **above and beside** each major command; section headers mark **Examples A–K** so you can jump to a plot type you care about.
 - To adapt the script to **your** experiment, replace the synthetic `data.frame()` with `read.csv()` (or similar) pointing to your own tidy table, then adjust column names inside `aes()`.
 - Examples **C**, **D**, and **I** share the same aggregated **`summary_df`** (means and SDs); change the aggregation once if you switch to real data with more replicates.
-
-## License
-
-No license is set by default. If you share this publicly, consider adding a `LICENSE` file (for example MIT) so others know how they may use your code.
