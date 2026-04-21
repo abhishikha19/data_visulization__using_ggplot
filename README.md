@@ -1,6 +1,6 @@
 # Data visualization with ggplot2 (biological example)
 
-This repository contains a **fully commented R script** that builds a small **synthetic biological dataset** (gene expression and cell viability) and produces several **ggplot2** figures. It is intended for learning, teaching, or as a template you can copy into your own analyses before uploading to GitHub.
+This repository contains a **fully commented R script** that builds a small **synthetic biological dataset** (gene expression and cell viability) and produces several **ggplot2** figures. It is intended for learning, teaching, or as a template you can copy into your own analyses.
 
 ## What you will find here
 
