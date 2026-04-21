@@ -79,37 +79,6 @@ When you run the script, you may get:
 - **`biological_heatmap_example.png`** — Example **D** (heatmap), written by `ggsave()`.
 - **`Rplots.pdf`** — On some setups, R creates this when many plots are printed under `Rscript`. You can delete it if you do not need it, or list `Rplots.pdf` in `.gitignore` so it is not pushed to GitHub.
 
-## Uploading to GitHub
-
-1. Initialize git in this folder (if you have not already):
-
-   ```bash
-   git init
-   ```
-
-2. Add a `.gitignore` if you want to exclude generated files, for example:
-
-   ```gitignore
-   .Rhistory
-   .RData
-   .Rproj.user
-   Rplots.pdf
-   *.png
-   ```
-
-   Remove `*.png` from `.gitignore` if you **do** want to commit example images.
-
-3. Commit and push:
-
-   ```bash
-   git add README.md biological_ggplot2_visualization.R
-   git commit -m "Add ggplot2 biological visualization example and README"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   git push -u origin main
-   ```
-
-Replace `YOUR_USERNAME` and `YOUR_REPO` with your GitHub account and repository name.
 
 ## Learning notes
 
